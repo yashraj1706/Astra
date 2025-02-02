@@ -46,6 +46,7 @@ const SelectGroupTwo = () => {
         </span>
         <select
           value={selectedOption}
+          
           onChange={(e) => {
             setSelectedOption(e.target.value);
             changeTextColor();
